@@ -6,7 +6,8 @@ export default class LandingPage extends Component {
   render() {
     return(
       <div>
-        Danny Krug Home Page
+        <h1> Danny Krug </h1>
+        <h2> Full Stack Developer </h2>
         <div>
           <Link to="/about">About</Link>
         </div>
