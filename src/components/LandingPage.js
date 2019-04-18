@@ -10,6 +10,9 @@ export default class LandingPage extends Component {
         <div>
           <Link to="/about">About</Link>
         </div>
+        <div>
+          <Link to="/contact">Contact</Link>
+        </div>
       </div>
     )
   }
