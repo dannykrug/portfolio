@@ -8,6 +8,7 @@ export default class LandingPage extends Component {
       <div>
         <h1> Danny Krug </h1>
         <h2> Full Stack Developer </h2>
+        
         <div>
           <Link to="/about">About</Link>
         </div>
