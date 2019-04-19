@@ -8,7 +8,6 @@ export default class LandingPage extends Component {
     return(
       <div class='landing-wrapper'>
       <div class='bg-image'>
-      <div class='container'>
         <h1> Danny Krug </h1>
         <h2> Full Stack Developer </h2>
 
@@ -18,7 +17,6 @@ export default class LandingPage extends Component {
         <div>
           <Link to="/contact">Contact</Link>
         </div>
-      </div>
       </div>
       </div>
     )
