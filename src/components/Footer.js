@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import {NavLink} from 'react-router-dom'
 import './LandingPage.css'
 
 const menuitem = {
@@ -18,41 +17,19 @@ export default class Footer extends Component {
       <div class="footer">
       <div>
         <a
-          href='/'
+          href='https://medium.com/@dannykrug'
           exact
           style={menuitem}
-          activeStyle={{
-            color: 'black'
-          }}
-        ></a>
-        <NavLink
-          to='/work'
+
+        >Blog</a>
+        <a
+          href='https://github.com/dannykrug'
           style={menuitem}
-          activeStyle={{
-            color: 'black'
-          }}
-          >Work</NavLink>
-        <NavLink
-          to='/projects'
+          >GitHub</a>
+        <a
+          href='https://twitter.com/dannykrug'
           style={menuitem}
-          activeStyle={{
-            color: 'black'
-          }}
-          >Personal Projects</NavLink>
-          <NavLink
-            to='/about'
-            style={menuitem}
-            activeStyle={{
-              color: 'black'
-            }}
-            >About</NavLink>
-            <NavLink
-              to='/contact'
-              style={menuitem}
-              activeStyle={{
-                color: 'black'
-              }}
-              >Contact</NavLink>
+          >Twitter</a>
       </div>
 
       </div>
