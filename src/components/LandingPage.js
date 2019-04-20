@@ -7,7 +7,7 @@ export default class LandingPage extends Component {
   render() {
     return(
       <div class='landing-wrapper'>
-      <div class='bg-image'>
+      <div class='bg-image-main'>
         <h1> Danny Krug </h1>
         <h2> Full Stack Developer </h2>
 
