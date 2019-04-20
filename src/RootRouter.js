@@ -3,7 +3,8 @@ import About from './components/About';
 import Projects from './components/Projects';
 import ProfessionalWork from './components/ProfessionalWork';
 import Contact from './components/Contact';
-import NavBar from './components/NavBar'
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 import {BrowserRouter as Router, Route, NavLink} from 'react-router-dom';
 import LandingPage from '../src/components/LandingPage';
 
@@ -19,6 +20,7 @@ export default class RootRouter extends Component {
             <Route exact path='/projects' component={Projects} />
             <Route exact path='/work' component={ProfessionalWork} />
             <Route exact path='/contact' component={Contact} />
+          <Footer />
           </div>
         </Router>
       </div>
