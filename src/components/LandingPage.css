@@ -80,4 +80,73 @@ body{
   bottom: 0;
   width: 100%;
   text-align: center;
+  margin-bottom: 10px;
 }
+
+/* .appt-wrapper {
+  display: grid;
+  font-family:Abel;
+  font-weight: 300;
+  background: #181818;
+  color: #f4f4f4;
+}
+
+.appt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  padding-bottom: 1rem;
+  background-color: black;
+  border-radius: 5px;
+} */
+
+.wrapper {
+        border: 2px rgb(96, 139, 168);
+        width: 100%;
+        height: 75%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
+
+.wrapper::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.wrapper::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px .5 white; /* should match background, can't be transparent */
+    background-color: rgba(0, 0, 0, .5);
+}
+
+    .box {
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin:-10px;
+        margin-top: 30px;
+      }
+      .box>* {
+        width: 600px;
+        margin: 10px;
+        background: white;
+        text: white;
+        border-radius: 5px;
+      }
+  .project-text{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    color: black;
+    margin: 10px;
+  }
+
+  .project-video {
+    margin-left: 20px;
+  }
