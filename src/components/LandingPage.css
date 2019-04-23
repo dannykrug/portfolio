@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 
 *{
@@ -51,7 +52,7 @@ body{
 .landing-wrapper{
   display: flex;
   flex-direction: row;
-  font-family:Abel;
+  font-family: 'Roboto Slab', serif;
   font-weight: 300;
   background: #181818;
   color: #f4f4f4;
@@ -60,7 +61,7 @@ body{
 
 .secondary-btn{
   padding: 0.5rem;
-  height: 8rem;
+  height: 9rem;
   display: block;
   border: 1px solid #f4f4f4;
   border-radius: 5px;
@@ -145,6 +146,7 @@ body{
     width: 95%;
     color: black;
     margin: 10px;
+    font-family: 'Roboto Slab', serif;
   }
 
   .project-video {

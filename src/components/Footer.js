@@ -4,7 +4,7 @@ import './LandingPage.css'
 const menuitem = {
  listStyle: 'none',
  textDecoration: 'none',
- fontFamily: 'Abel',
+ fontFamily: 'Roboto Slab',
  color: '#289bff',
  fontSize: '24px',
  fontWeight: 'bold',
@@ -18,16 +18,18 @@ export default class Footer extends Component {
       <div>
         <a
           href='https://medium.com/@dannykrug'
+          target="_blank"
           exact
           style={menuitem}
-
         >Blog</a>
         <a
           href='https://github.com/dannykrug'
+          target="_blank"
           style={menuitem}
           >GitHub</a>
         <a
           href='https://twitter.com/dannykrug'
+          target="_blank"
           style={menuitem}
           >Twitter</a>
       </div>

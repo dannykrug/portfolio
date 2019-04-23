@@ -1,14 +1,15 @@
 import React, {Component} from 'react'
 import {NavLink} from 'react-router-dom'
 
+
 const menuitem = {
  listStyle: 'none',
  textDecoration: 'none',
- fontFamily: 'Abel',
+ fontFamily: 'Roboto Slab',
  color: '#289bff',
  fontSize: '24px',
  fontWeight: 'bold',
- padding: '0 20px 0 20px'
+ padding: '0 30px 0 30px'
 }
 
 export default class NavBar extends Component {
