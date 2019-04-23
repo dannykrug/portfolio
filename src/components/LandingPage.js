@@ -20,7 +20,6 @@ export default class LandingPage extends Component {
 
       <div class="container">
         <div class="secondary-btn">
-        <div class="title-text">
         <p> Danny Krug </p>
         <p> Full Stack Developer </p>
         <NavLink
@@ -33,7 +32,6 @@ export default class LandingPage extends Component {
             >Personal Projects</NavLink>
         </div>
         </div>
-      </div>
       </div>
       </div>
     )
