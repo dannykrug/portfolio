@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import './LandingPage.css'
 
+const menuitem = {
+ listStyle: 'none',
+ textDecoration: 'none',
+ fontFamily: 'Roboto Slab',
+ color: 'white',
+ fontSize: '24px',
+ fontWeight: 'bold',
+ padding: '0 30px 0 30px'
+}
 
 export default class LandingPage extends Component {
   render() {
@@ -14,16 +23,17 @@ export default class LandingPage extends Component {
         <div class="title-text">
         <p> Danny Krug </p>
         <p> Full Stack Developer </p>
+        <NavLink
+          to='/work'
+          style={menuitem}
+          >Work</NavLink>
+          <NavLink
+            to='/projects'
+            style={menuitem}
+            >Personal Projects</NavLink>
         </div>
         </div>
       </div>
-
-        <div>
-          <Link to="/about">About</Link>
-        </div>
-        <div>
-          <Link to="/contact">Contact</Link>
-        </div>
       </div>
       </div>
     )
