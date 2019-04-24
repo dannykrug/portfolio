@@ -7,7 +7,7 @@ const menuitem = {
  textDecoration: 'none',
  fontFamily: 'Roboto Slab',
  color: 'white',
- fontSize: '24px',
+ fontSize: '30px',
  fontWeight: 'bold',
  padding: '0 30px 0 30px'
 }
