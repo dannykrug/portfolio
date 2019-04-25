@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {NavLink} from 'react-router-dom'
-
+import './NavBar.css'
 
 const menuitem = {
  listStyle: 'none',
@@ -16,7 +16,7 @@ export default class NavBar extends Component {
   render(){
     return(
       <div>
-      <div>
+      <div class="nav-ul">
         <NavLink
           to='/'
           exact
